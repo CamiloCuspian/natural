@@ -1,0 +1,19 @@
+<div class="gallery-slider">
+  <div class="slider-container">
+    {% for service in site[{{include.src}}] %}
+    <article>
+      <img src="{{service.hero | relative_url}}" alt="{{service.alt}}" width="360" height="200" loading="lazy">
+      <div class="slider-container__text">
+        <h4>{{service.h1}}</h4>
+        <p>{{service.excerpt}}</p>
+      </div>
+    </article>
+    {% endfor %}
+    <article>
+      <div class="slider-container__text">
+        <h4>{{include.src}} cleaning services in Columbus</h4>
+        <p>{{service.excerpt}}</p>
+      </div>
+    </article>
+  </div>
+</div>

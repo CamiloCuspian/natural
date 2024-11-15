@@ -1,0 +1,33 @@
+.about{
+  img{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+  } 
+
+  .about_content{
+    display: grid;
+    gap: 24px;
+    place-items: center left;
+
+    .benefits_item{
+      display: flex;
+      gap: 8px;
+
+      h3{
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .about_list span{
+    color: var(--color-main);
+    font-weight: 700;
+    font-size: 1.5em;
+    vertical-align: middle;
+  }
+}
+
+.services{
+  background-color: var(--bg-grey);
+  box-shadow: 0 0 0 100vmax var(--bg-grey);
+  clip-path: inset(0-100vmax);
+}

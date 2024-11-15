@@ -1,0 +1,41 @@
+baseurl: ""
+url: ""
+title: "Natural One Live"
+telefono: ""
+whatsapp: ""
+email: ""
+maps: https://maps.app.goo.gl/LAmA8gQZFBxwKak28
+
+markdown: kramdown
+
+permalink: :slug
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+  envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+collections:
+  specialized:
+    output: true
+    permalink: /specialized/:path
+  posts:
+    output: true
+    permalink: /blog/:slug
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# paginate: 10 # Número de posts por página
+# paginate_path: "/blog/page/:num/" # URL para las páginas
+# plugins:
+#   - jekyll-paginate

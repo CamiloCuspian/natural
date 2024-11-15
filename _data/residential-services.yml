@@ -1,0 +1,35 @@
+- title: "Doorstep Trash Pick up"
+  description: "Experience dependable waste collection from designated spots within your apartment community, ensuring a cleaner living environment with every pickup."
+  icon: "img/cleaning.avif"
+  link: "/services/trash-pickup"
+
+- title: "Parking lot line-striping and maintenance"
+  description: "Enhance the appearance and safety of the apartment complex’s parking areas with line-striping painting services."
+  icon: "img/cleaning.avif"
+  link: "/services/parking-maintenance"
+
+- title: "Carpet Cleaning"
+  description: "Our professional team provides deep carpet cleaning solutions to remove dirt, allergens, and stains."
+  icon: "img/cleaning.avif"
+  link: "/services/carpet-cleaning" 
+
+- title: "Cleaning and Disinfecting"
+  description: "Dive deep into cleanliness with our specialized deep cleaning service."
+  icon: "img/cleaning.avif"
+  link: "/services/carpet-cleaning"
+
+- title: "Window Cleaning"
+  description: "Embrace clarity with our specialized window cleaning service."
+  icon: "img/cleaning.avif"
+  link: "/services/carpet-cleaning"
+
+- title: "Handyman Services"
+  description: "No task is too big or small with our dedicated handyman service."
+  icon: "img/cleaning.avif"
+  link: "/services/carpet-cleaning"
+
+- title: "Bulk Item Pick up"
+  description: "Say goodbye to the hassle of oversized waste disposal."
+  icon: "img/cleaning.avif"
+  link: "/services/carpet-cleaning"
+

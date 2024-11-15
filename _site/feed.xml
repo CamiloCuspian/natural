@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural One Live</title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 15 Nov 2024 13:42:36 -0500</pubDate>
+    <lastBuildDate>Fri, 15 Nov 2024 13:42:36 -0500</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/testklslslslslscopy-5</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/testklslslslslscopy-5</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/testaaewwf</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/testaaewwf</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/testaacopy-dd3</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/testaacopy-dd3</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/test9copyas-2</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/test9copyas-2</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/test</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/test</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/test-copy-7</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-7</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/test-copy-5</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-5</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/test-copy-4</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-4</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/test-copy-3</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-3</guid>
+        
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>A title</title>
+        <description>A description</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/test-copy-2</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-2</guid>
+        
+        
+        
+        
+      </item>
+    
+  </channel>
+</rss>

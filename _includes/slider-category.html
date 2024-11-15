@@ -1,0 +1,30 @@
+<section class="wrapper two_columns bgr">
+  <div class="">
+    <h2>{{ page.slider-title[0].title }}</h2>
+    <p>{{ page.slider-title[0].text }}</p>
+  </div>
+  
+
+  <div class="section-carousel">
+    {% for item in page.slider %}
+    <input type="radio" name="carousel" id="slide{{ forloop.index }}" {% if forloop.first %}checked{% endif %}>
+    {% endfor %}
+    
+    <div class="carousel__slides">
+      {% for item in page.slider %}
+      <div class="carousel__slide" id="slide{{ forloop.index }}-content">
+        <img src="{{ item.img | relative_url }}" alt="{{ item.alt }}">
+        <div class="carousel__caption">
+          <p>{{ item.p }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="carousel__nav">
+      {% for item in page.slider %}
+      <label for="slide{{ forloop.index }}"></label>
+      {% endfor %}
+    </div>
+  </div>
+</section>

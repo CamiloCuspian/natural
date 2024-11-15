@@ -1,0 +1,77 @@
+.section-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel__slides {
+  position: relative;
+  width: 100%;
+}
+
+.carousel__slide {
+  width: 100%;
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#slide1:checked ~ .carousel__slides #slide1-content,
+#slide2:checked ~ .carousel__slides #slide2-content,
+#slide3:checked ~ .carousel__slides #slide3-content,
+#slide4:checked ~ .carousel__slides #slide4-content {
+  opacity: 1; /* Muestra solo el slide seleccionado */
+  position: static;
+}
+
+.carousel__slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.carousel__caption {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  background: rgb(21 75 38 / 60%); /* Fondo semitransparente */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.carousel__nav {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.carousel__nav label {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ddd;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  background: #333;
+}

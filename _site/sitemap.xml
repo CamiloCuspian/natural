@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+    
+      <url>
+        <loc>http://localhost:4000/about-us</loc>
+        <lastmod>2024-11-15T13:42:36-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/img/cleaning_services.avif</image:loc>
+            <image:title></image:title>
+            <image:caption>All staff are <strong>trained to carry out proven cleaning systems</strong>. We will be your new favorite team of cleaning professionals.</image:caption>
+          </image:image>
+        
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/contact</loc>
+        <lastmod>2024-11-15T13:42:36-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+          <image:image>
+            <image:loc>http://localhost:4000/img/cleaning_services.avif</image:loc>
+            <image:title></image:title>
+            <image:caption>Lorem aona nw en nianciwen</image:caption>
+          </image:image>
+        
+        
+        
+      </url>
+    
+  
+    
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/blog/</loc>
+        <lastmod>2024-11-15T13:42:36-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/</loc>
+        <lastmod>2024-11-15T13:42:36-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        
+        
+        
+      </url>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  
+
+  
+
+  
+  
+  
+    <url>
+      <loc>http://localhost:4000/blog/testklslslslslscopy-5</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/testaaewwf</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/testaacopy-dd3</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test9copyas-2</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-copy-7</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-copy-5</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-copy-4</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-copy-3</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-copy-2</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-asdf-asfa-6</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-asasdf-copy</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-aamwe-fa-efa-wef</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/test-6</loc>
+      <lastmod>2024-11-01T00:00:00-05:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      
+      
+        <image:image>
+          <image:loc>http://localhost:4000/img/lady-cleaning-a-house.avif</image:loc>
+          <image:title>A title</image:title>
+          <image:caption>a alt text</image:caption>
+        </image:image>
+      
+    </url>
+  
+  
+  
+</urlset>

@@ -1,0 +1,87 @@
+---
+layout: compress
+---
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+  <script src="{{ '/js/code.js' | relative_url }}"></script>
+  <!-- Código del slider -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sliders = document.querySelectorAll('.slider-container');
+  
+  sliders.forEach(slider => {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    let momentum = 0;
+    let lastX;
+    let requestId;
+
+    const start = (e) => {
+      isDown = true;
+      slider.classList.add('dragging');
+      startX = e.pageX || e.touches?.[0].pageX;
+      lastX = startX;
+      scrollLeft = slider.scrollLeft;
+      momentum = 0;
+      
+      if (requestId) {
+        cancelAnimationFrame(requestId);
+      }
+    };
+
+    const move = (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX || e.touches?.[0].pageX;
+      const walk = (x - startX) * 1.5; 
+
+      momentum = x - lastX;
+      lastX = x;
+      
+      slider.scrollLeft = scrollLeft - walk;
+    };
+
+    const end = () => {
+      if (!isDown) return;
+      isDown = false;
+      slider.classList.remove('dragging');
+      
+      if (Math.abs(momentum) > 1) {
+        applyMomentum();
+      }
+    };
+
+    const applyMomentum = () => {
+      const deceleration = 0.95; 
+      
+      const animate = () => {
+        if (Math.abs(momentum) > 0.1) {
+          slider.scrollLeft -= momentum;
+          momentum *= deceleration;
+          requestId = requestAnimationFrame(animate);
+        }
+      };
+      
+      requestId = requestAnimationFrame(animate);
+    };
+
+    slider.addEventListener('mousedown', start);
+    slider.addEventListener('mousemove', move);
+    slider.addEventListener('mouseleave', end);
+    slider.addEventListener('mouseup', end);
+
+    slider.addEventListener('touchstart', start);
+    slider.addEventListener('touchmove', move);
+    slider.addEventListener('touchend', end);
+  });
+});
+
+
+</script>
+</body>
+</html>

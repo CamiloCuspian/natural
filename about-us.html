@@ -1,0 +1,69 @@
+---
+layout: general
+small: "Cleaning services plans"
+h1: "Schedule your clean with Quality Standard Ohio"
+text: "Easy online scheduling for all cleaning services."
+hero: 'img/cleaning_services.avif'
+alt: All staff are <strong>trained to carry out proven cleaning systems</strong>. We will be your new favorite team of cleaning professionals.
+---
+
+<section class="section wrapper">
+  <small>Lorem Ipsum dolor</small>
+  <h2>Know the Quality Standard Ohio team</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, officiis repudiandae. Eum blanditiis ipsa fugiat, ipsam odio doloremque veniam facilis!</p>
+</section>
+
+<section class="cards">
+  <div class="wrapper">
+    <div class="three_columns">
+      {% for person in site.data.team %}
+      <div class="card__contact">
+        <img src="{{ person.img | relative_url }}" width="360" height="200" alt="{{person.alt}}" loading="lazy" title="{{person.title}}">
+        <div>
+          <h3>{{person.name | capitalize}}</h3>
+          <p>{{person.text}}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="text_center">
+    {% include button.html
+    text = '→ Take our service'
+    %}
+  </div>
+</section>
+<main class="two_columns wrapper about bgr">
+  <img src="{{'img/cleaning_services.avif' | relative_url}}" height="520" width="520" alt="Quality Standard Ohio team cleaning an apartment">
+  <div class="about_content">
+    <small>Professional cleaning services in Columbus</small>
+    <h2>Our cleaning services in Ohio</h2>
+    <p>Experience the joy of a perfectly clean space with <b>Quality Standard Ohio.</b> Columbus' trusted cleaning service providing professional residential and commercial solutions. Schedule today!</p>
+    <ul class="about_list">
+      <li><span>&check;</span> We <b>free up the time you need</b> for other things</li>
+      <li><span>&check;</span><b> “What a pain to clean that up...”</b> Don't worry, we'll do it!</li>
+      <li><span>&check;</span> If you got a good service one day and not so good the next, was because you didn't call us. <b>Quality is consistent quality.</b></li>
+      <li><span>&check;</span> Avoid damage to your home. Only our professionals can<b> guarantee their cleaning service.</b></li>
+    </ul>
+    <a href="{{'services'|relative_url}}" title="Quality Standard Ohio contact page" class="buttons button-secondary">→ Get more info</a>
+  </div>
+</main>
+<section class="two_columns wrapper about two_columns_left">
+  <img src="{{'img/cleaning_services.avif' | relative_url}}" height="520" width="520" alt="Quality Standard Ohio team cleaning an apartment">
+  <div class="about_content">
+    <small>Professional cleaning services in Columbus</small>
+    <h2>Our cleaning services in Ohio</h2>
+    <p>Experience the joy of a perfectly clean space with <b>Quality Standard Ohio.</b> Columbus' trusted cleaning service providing professional residential and commercial solutions. Schedule today!</p>
+    <ul class="about_list">
+      <li><span>&check;</span> We <b>free up the time you need</b> for other things</li>
+      <li><span>&check;</span><b> “What a pain to clean that up...”</b> Don't worry, we'll do it!</li>
+      <li><span>&check;</span> If you got a good service one day and not so good the next, was because you didn't call us. <b>Quality is consistent quality.</b></li>
+      <li><span>&check;</span> Avoid damage to your home. Only our professionals can<b> guarantee their cleaning service.</b></li>
+    </ul>
+    <a href="{{'services'|relative_url}}" title="Quality Standard Ohio contact page" class="buttons button-secondary">→ Get more info</a>
+  </div>
+</section>
+
+{% include testimonials.html %}
+{% include cta.html title="Schedule your clean with Quality Standard Ohio" %}
+

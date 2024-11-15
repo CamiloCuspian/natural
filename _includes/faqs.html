@@ -1,0 +1,12 @@
+<section class="section wrapper ">
+  <small>{{include.small}} </small>
+  <h2>{{include.title}}</h2>
+  <div class="faq-container two_columns">
+    {% for question in page.faqs %}
+    <div>
+      <h3 class="faq-item">{{question.pregunta}}</h3>
+      <p>{{question.respuesta}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

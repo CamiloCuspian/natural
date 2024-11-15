@@ -1,0 +1,88 @@
+@media screen and (width <= 1200px) {
+  nav ul {
+    float: none;
+    position: fixed;
+    flex-direction: column;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    top: 60px;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    transition: all 0.4s ease-out;
+    background-color: var(--grey-1);
+    align-items: center;
+  }
+
+  .navegacion > a:not(:last-child),
+  .navegacion > li,
+  .dropdown-content a {
+    color: var(--color-main);
+    width: min(100%, 320px);
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  .dropdown-content {
+    top: 40px;
+  }
+
+  nav :checked ~ ul {
+    bottom: 0;
+  }
+
+  nav .icono-nav {
+    display: block;
+  }
+
+  nav :checked ~ .icono-nav .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+
+  nav :checked ~ .icono-nav .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  nav :checked ~ .icono-nav .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+
+  .time__email {
+    display: none;
+  }
+}
+
+@media screen and (width <= 992px) {
+
+  .menu__top{
+    flex-wrap: wrap;
+
+    #current-day,
+    .menu__top--time,
+    .menu__top--whatsapp{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      span{
+        text-align: center;
+      }
+    }
+  }
+
+  .footer_links {
+    width: 100%;
+
+    & > div{
+      max-width: 100%;
+    }
+  }
+
+  .footer_legal{
+    flex: 1 0 280px;
+    width: 100%;
+  }
+}

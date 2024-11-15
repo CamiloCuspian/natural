@@ -1,0 +1,35 @@
+{% assign layout = page.layout %}
+{% case layout %}
+{% when "default" %}
+<header class="header_home">
+  <div class="wrapper two_columns">
+    <div class="header__home--text flow">
+      <small>We are Quality Standard Ohio</small>
+      <h1>Professional cleaning service for your home</h1>
+      <p>Columbus' trusted cleaning service provides professional residential and commercial solutions. Schedule today!
+      </p>
+      {% include button.html text="→ Take our service" %}
+    </div>
+    <img src="{{ 'img/lady-cleaning-a-house.avif' | relative_url }}" width="861" height="680" loading="eager" alt="Girl who belongs to the Quality Standard Ohio team, cleaning a house in Columbus" title="We clean your house in Columbus">
+  </div>
+</header>
+
+{% else %}
+<header class="header__services">
+  <div class="wrapper two_columns bgr-hero">
+    <div class="">
+      {% if page.small %}
+      <small>{{ page.small }}</small>
+      {% endif %}
+      <h1>{{ page.h1 }}</h1>
+      <p>{{ page.text }}</p>
+
+      {% if page.button %}
+      {% include button.html text="→ Take our service" %}
+      {% endif %}
+    </div>
+
+    <img src="{{ page.hero | relative_url }}" height="600" width="600" alt="{{page.alt}}">
+  </div>
+</header>
+{% endcase %}
