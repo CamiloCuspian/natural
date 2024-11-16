@@ -1,8 +1,11 @@
 /* Estructura del header */
 .header_home {
-  background-color: var(--bgr);
-  box-shadow: 0 0 0 100vmax var(--bgr);
-  clip-path: inset(0-100vmax);
+  background-image:
+    url("{{ 'img/hero-home-natural-one-life.avif' | relative_url }}");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   .wrapper {
     position: relative;
@@ -57,7 +60,6 @@
       min-width: clamp(250px, 35vw, 600px);
       overflow: unset;
       z-index: 2;
-      
     }
   }
 }

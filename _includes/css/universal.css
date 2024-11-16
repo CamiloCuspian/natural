@@ -1,19 +1,18 @@
 :root {
-  --color-white: #fefefe;
-  --color-main: #008037;
-  --color-complement: #ffce00;
+  --blanco: #fefefe;
+  --primario: #309701;
+  --complemento: #ffce00;
   --bgr: #f3f3f3;
-  --bg-grey: #e7e7e7;
-  --color-fonts: #111313;
-  --color-btn: #005123;
+  --bg-gris: #e7e7e7;
+  --color-fuentes: #111313;
   --color-accent: #00803736;
-  --grey-1: #7c7a7a;
-  --grey-2: #495057;
-  --black: #18181a;
+  --gris-1: #7c7a7a;
+  --gris-2: #495057;
+  --negro: #18181a;
 
   --shadow: rgba(0, 0, 0, 0.15) 0px 6px 20px 2px;
-  --radius: 8px;
-  --radius-cards: 12px;
+  --radius: 50px;
+  --radius-tarjetas: 12px;
   --fuente: "Monstserrat", sans-serif;
 }
 

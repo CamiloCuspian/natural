@@ -4,22 +4,25 @@ nav {
   padding: 12px 20px 8px;
   display: flex;
   align-items: center;
+  width: min(calc(100% - 2rem), 1320px);
+  margin-inline: auto;
 }
 
 .inicio {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-right: 5rem;
+  margin-right: 6rem;
 
   span {
     font-size: 18px;
   }
 }
 
-.wrap-navegacion{
+.wrap-navegacion {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
