@@ -1,19 +1,40 @@
-<div class="gallery-slider">
-  <div class="slider-container">
-    {% for service in site[{{include.src}}] %}
-    <article>
-      <img src="{{service.hero | relative_url}}" alt="{{service.alt}}" width="360" height="200" loading="lazy">
-      <div class="slider-container__text">
-        <h4>{{service.h1}}</h4>
-        <p>{{service.excerpt}}</p>
+<section class="slider_vertical" aria-label="Vertical Slider">
+  <div class="vertical">
+    <!-- Tarjeta 1 -->
+    <input type="radio" id="step-1" name="slider-control" checked>
+    <div class="vertical-tarjeta">
+      <img src="{{ '/img/logo.avif' | relative_url }}" alt="Day 1">
+      <div class="contenido">
+        <h3>Day 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-    </article>
-    {% endfor %}
-    <article>
-      <div class="slider-container__text">
-        <h4>{{include.src}} cleaning services in Columbus</h4>
-        <p>{{service.excerpt}}</p>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <input type="radio" id="step-2" name="slider-control">
+    <div class="vertical-tarjeta">
+      <img src="{{ '/img/logo.avif' | relative_url }}" alt="Day 2">
+      <div class="contenido">
+        <h3>Day 2</h3>
+        <p>Donec eu enim vel velit convallis convallis nec pretium nisi.</p>
       </div>
-    </article>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <input type="radio" id="step-3" name="slider-control">
+    <div class="vertical-tarjeta">
+      <img src="{{ '/img/logo.avif' | relative_url }}" alt="Day 3">
+      <div class="contenido">
+        <h3>Day 3</h3>
+        <p>Vestibulum viverra ex non magna placerat condimentum.</p>
+      </div>
+    </div>
+
   </div>
-</div>
+  <!-- Puntos de navegación -->
+  <nav class="dots">
+    <label for="step-1"></label>
+    <label for="step-2"></label>
+    <label for="step-3"></label>
+  </nav>
+</section>

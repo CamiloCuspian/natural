@@ -4,8 +4,6 @@
 {% include css/nav.css  %}
 {% include css/header.css  %}
 {% include css/buttons.css %}
-{% include css/home.css %}
-{% include css/carousel.css %}
 {% include css/slider.css %}
 {% include css/form.css %}
 {% include css/footer.css %}
@@ -14,6 +12,5 @@
 {% include css/testimonials.css %}
 {% include css/queries.css %}
 {% include css/pages.css %}
-{% include css/slider-category.css %}
 
 

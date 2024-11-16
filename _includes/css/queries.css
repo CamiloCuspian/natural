@@ -86,3 +86,25 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .header_home {
+    background-image: url("{{ 'img/hero-home-natural-one-life-vertical.avif' | relative_url }}");
+    background-position: right;
+
+    .wrapper {
+      padding: 4em 0 8em;
+    }
+
+  }
+
+  
+
+}
+@media (max-width: 768px) {
+
+    .img-tarjeta{
+      border-radius: var(--radius);
+    }
+}
+

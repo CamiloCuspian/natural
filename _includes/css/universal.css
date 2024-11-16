@@ -60,7 +60,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-h2::after {
+/* h2::after {
   content: '';
   position: absolute;
   bottom: -10px;
@@ -68,7 +68,7 @@ h2::after {
   width: 60px;
   height: 4px;
   background-color: var(--color-accent);
-}
+} */
 
 h3 {
   font-size: clamp(1.5rem, 1.269rem + 1.15vw, 2.25rem);
@@ -109,6 +109,7 @@ small {
   font-size: 85%;
   font-weight: 900;
   display: block;
+  color: var(--primario);
 }
 
 img {
@@ -205,8 +206,8 @@ ol li {
 .three_columns {
   display: flex;
   flex-wrap: wrap;
-  gap: 3em;
-  justify-content: center;
+  gap: 1em;
+  justify-content: space-around;
   align-items: flex-start;
   margin-bottom: 4em;
 

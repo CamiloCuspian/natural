@@ -2,22 +2,19 @@
 .header_home {
   background-image:
     url("{{ 'img/hero-home-natural-one-life.avif' | relative_url }}");
-  background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 
   .wrapper {
     position: relative;
-    padding: 0;
 
     .header__home--text {
       padding: 6em 0 4em;
-      small {
-        text-transform: uppercase;
-      }
-
+      
       h1 {
+        width: clamp(320px, 100%, 620px);
         margin-top: 16px;
       }
 
@@ -31,6 +28,7 @@
       min-width: clamp(250px, 35vw, 600px);
       overflow: unset;
       z-index: -1;
+      
     }
   }
 }
@@ -63,3 +61,4 @@
     }
   }
 }
+

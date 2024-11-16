@@ -141,7 +141,7 @@
 
     div {
       padding: 8px;
-			
+
       h3 {
         color: var(--color-main);
         font-size: 1.5rem;
@@ -374,10 +374,51 @@
   margin: 2em 0;
   border-radius: var(--radius);
 }
+/* tarjeta porcentaje */
+.about {
+  position: relative;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(calc(100% - 2rem), 1120px);
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra flotante */
+  border-radius: var(--radius);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 10;
+
+  img {
+    border-radius: var(--radius) 0 0 var(--radius);
+    flex: 1 0 300px;
+    max-width: 100%;
+    transition: border-radius 0.3s ease;
+  }
+}
+.about .content {
+  flex: 1 0 480px;
+  max-width: 100%;
+  padding: 0 2rem;
+}
+
+.services {
+  background-color: var(--bg-grey);
+  box-shadow: 0 0 0 100vmax var(--bg-grey);
+  clip-path: inset(0-100vmax);
+}
 
 .porcent div {
-  width: min(100%, 150px);
+  width: min(100%, 100px);
 }
 .h2_grey {
   color: var(--grey-2);
+}
+
+.img-tres-columnas{
+  
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+
 }

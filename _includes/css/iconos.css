@@ -1,6 +1,5 @@
 /* Contenedor principal */
 .booking-process {
-  background-color: #F7F7F7;
   display: grid;
   place-items: center;
   gap: 2em;
@@ -17,17 +16,13 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-  background-image: url("{{ '/img/section-fondo.avif' | relative_url }}");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
+  
 
   div {
     padding: 20px 0;
     text-align: center;
-    flex: 1 0 300px;
+    flex: 1 0 250px;
     display: grid;
-    gap: 1em;
     place-items: center;
 
     div {
@@ -52,7 +47,7 @@
       overflow: hidden;
 
       img {
-        width: 100px;
+        width: 100%;
         height: auto;
         z-index: 1;
       }
