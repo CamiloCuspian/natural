@@ -4,6 +4,7 @@
   padding: 2rem;
   width: min(100%, 700px);
   margin: auto;
+  gap: 2rem;
 }
 
 .vertical {
@@ -66,7 +67,7 @@ input#step-3:checked ~ .vertical-tarjeta:nth-of-type(3) {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: var(--gris-1);
   cursor: pointer;
   transition: background-color 0.4s ease-in-out;
 }
@@ -74,7 +75,9 @@ input#step-3:checked ~ .vertical-tarjeta:nth-of-type(3) {
 input#step-1:checked ~ .dots label[for="step-1"],
 input#step-2:checked ~ .dots label[for="step-2"],
 input#step-3:checked ~ .dots label[for="step-3"] {
-  background-color: #4caf50;
+  background-color: #4caf50; 
+  transform: scale(1.2);
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
 }
 
 /* Ajuste de alineación responsiva */

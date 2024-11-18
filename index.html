@@ -32,17 +32,17 @@ layout: default
 
 {% include iconos.html %}
 
-<div class="text_center">
-  <h2>Lorem ipsum dolor sit.</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime error iusto aspernatur voluptatum asperiores modi.</p>
-</div>
-<section class="wrapper two_columns">
-
-  <div >
-    <img src="{{'img/slider-seccion.avif' | relative_url}}" width="450" height="450" class="img_vertical_slider">
+<section class="wrapper ">
+  <div class="text_center">
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime error iusto aspernatur voluptatum asperiores modi.</p>
   </div>
-  
-{% include slider.html %}
+
+  <div class="two_columns">
+    <img src="{{'img/slider-seccion.avif' | relative_url}}" width="450" height="450" class="img_vertical_slider">
+    
+    {% include slider.html %}
+  </div>
 
 </section>
 

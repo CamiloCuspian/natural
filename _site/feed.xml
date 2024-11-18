@@ -3,18 +3,18 @@
   <channel>
     <title>Natural One Live</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Nov 2024 12:45:51 -0500</pubDate>
-    <lastBuildDate>Sat, 16 Nov 2024 12:45:51 -0500</lastBuildDate>
+    <link>http://localhost:4000/natural/</link>
+    <atom:link href="http://localhost:4000/natural/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Nov 2024 07:46:31 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Nov 2024 07:46:31 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/testklslslslslscopy-5</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/testklslslslslscopy-5</guid>
+        <link>http://localhost:4000/natural/blog/testklslslslslscopy-5</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/testklslslslslscopy-5</guid>
         
         
         
@@ -25,8 +25,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/testaaewwf</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/testaaewwf</guid>
+        <link>http://localhost:4000/natural/blog/testaaewwf</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/testaaewwf</guid>
         
         
         
@@ -37,8 +37,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/testaacopy-dd3</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/testaacopy-dd3</guid>
+        <link>http://localhost:4000/natural/blog/testaacopy-dd3</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/testaacopy-dd3</guid>
         
         
         
@@ -49,8 +49,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/test9copyas-2</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test9copyas-2</guid>
+        <link>http://localhost:4000/natural/blog/test9copyas-2</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/test9copyas-2</guid>
         
         
         
@@ -61,8 +61,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/test</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test</guid>
+        <link>http://localhost:4000/natural/blog/test</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/test</guid>
         
         
         
@@ -73,8 +73,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/test-copy-7</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-7</guid>
+        <link>http://localhost:4000/natural/blog/test-copy-7</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/test-copy-7</guid>
         
         
         
@@ -85,8 +85,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/test-copy-5</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-5</guid>
+        <link>http://localhost:4000/natural/blog/test-copy-5</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/test-copy-5</guid>
         
         
         
@@ -97,8 +97,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/test-copy-4</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-4</guid>
+        <link>http://localhost:4000/natural/blog/test-copy-4</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/test-copy-4</guid>
         
         
         
@@ -109,8 +109,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/test-copy-3</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-3</guid>
+        <link>http://localhost:4000/natural/blog/test-copy-3</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/test-copy-3</guid>
         
         
         
@@ -121,8 +121,8 @@
         <title>A title</title>
         <description>A description</description>
         <pubDate>Fri, 01 Nov 2024 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/test-copy-2</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test-copy-2</guid>
+        <link>http://localhost:4000/natural/blog/test-copy-2</link>
+        <guid isPermaLink="true">http://localhost:4000/natural/blog/test-copy-2</guid>
         
         
         

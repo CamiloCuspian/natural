@@ -2,39 +2,39 @@
   <div class="vertical">
     <!-- Tarjeta 1 -->
     <input type="radio" id="step-1" name="slider-control" checked>
-    <div class="vertical-tarjeta">
+    <label for="step-1" class="vertical-tarjeta">
       <img src="{{ '/img/logo.avif' | relative_url }}" alt="Day 1">
       <div class="contenido">
         <h3>Day 1</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-    </div>
+    </label>
 
     <!-- Tarjeta 2 -->
     <input type="radio" id="step-2" name="slider-control">
-    <div class="vertical-tarjeta">
+    <label for="step-2" class="vertical-tarjeta">
       <img src="{{ '/img/logo.avif' | relative_url }}" alt="Day 2">
       <div class="contenido">
         <h3>Day 2</h3>
         <p>Donec eu enim vel velit convallis convallis nec pretium nisi.</p>
       </div>
-    </div>
+    </label>
 
     <!-- Tarjeta 3 -->
     <input type="radio" id="step-3" name="slider-control">
-    <div class="vertical-tarjeta">
+    <label for="step-3" class="vertical-tarjeta">
       <img src="{{ '/img/logo.avif' | relative_url }}" alt="Day 3">
       <div class="contenido">
         <h3>Day 3</h3>
         <p>Vestibulum viverra ex non magna placerat condimentum.</p>
       </div>
-    </div>
-
+    </label>
   </div>
+
   <!-- Puntos de navegación -->
   <nav class="dots">
-    <label for="step-1"></label>
-    <label for="step-2"></label>
-    <label for="step-3"></label>
+    <label for="step-1" aria-label="Ir al día 1"></label>
+    <label for="step-2" aria-label="Ir al día 2"></label>
+    <label for="step-3" aria-label="Ir al día 3"></label>
   </nav>
 </section>

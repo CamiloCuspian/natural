@@ -19,8 +19,8 @@
 }
 
 .button-main:hover{
-  color: #ffffff;
-  background-color: var(--color-main);
+  color: var(--color-fuentes);
+  background-color: var(--color-accent);
 }
 
 .button-secondary {
