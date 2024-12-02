@@ -225,18 +225,14 @@ ol li {
   align-items: center;
   width: min(calc(100% - 2rem), 1320px);
   margin-inline: auto;
-}
 
-.inicio {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-right: 6rem;
-
-  span {
-    font-size: 18px;
+  img {
+    max-width: 115px;
+    height: auto;
   }
 }
+
+
 
 .wrap-navegacion {
   display: flex;
@@ -324,6 +320,7 @@ ol li {
 #nav-toggle {
   position: absolute;
   top: -200px;
+  display: none;
 }
 
 nav .icono-nav {
@@ -349,7 +346,7 @@ nav .icono-nav .line {
   background-image:
     url("/natural/img/hero-home-natural-one-life.avif");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
 
@@ -885,75 +882,25 @@ input#step-3:checked ~ .dots label[for="step-3"] {
 }
 
 @media screen and (width <= 1200px) {
-  nav ul {
-    float: none;
-    position: fixed;
-    flex-direction: column;
-    z-index: 99;
-    left: 0;
-    right: 0;
-    bottom: 100%;
-    top: 60px;
-    width: auto;
-    height: auto;
-    overflow: auto;
-    transition: all 0.4s ease-out;
-    background-color: var(--grey-1);
-    align-items: center;
-  }
-
-  .navegacion > a:not(:last-child),
-  .navegacion > li,
-  .dropdown-content a {
-    color: var(--color-main);
-    width: min(100%, 320px);
-    font-size: 1.2rem;
-    font-weight: 900;
-  }
-
-  .dropdown-content {
-    top: 40px;
-  }
-
-  nav :checked ~ ul {
-    bottom: 0;
-  }
-
-  nav .icono-nav {
-    display: block;
-  }
-
-  nav :checked ~ .icono-nav .line:nth-child(1) {
-    transform: translateY(10px) rotate(225deg);
-  }
-
-  nav :checked ~ .icono-nav .line:nth-child(2) {
-    opacity: 0;
-  }
-
-  nav :checked ~ .icono-nav .line:nth-child(3) {
-    transform: translateY(-10px) rotate(-225deg);
-  }
-
+  
   .time__email {
     display: none;
   }
 }
 
 @media screen and (width <= 992px) {
-
-  .menu__top{
+  .menu__top {
     flex-wrap: wrap;
 
     #current-day,
     .menu__top--time,
-    .menu__top--whatsapp{
+    .menu__top--whatsapp {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
 
-      span{
+      span {
         text-align: center;
       }
     }
@@ -962,12 +909,12 @@ input#step-3:checked ~ .dots label[for="step-3"] {
   .footer_links {
     width: 100%;
 
-    & > div{
+    & > div {
       max-width: 100%;
     }
   }
 
-  .footer_legal{
+  .footer_legal {
     flex: 1 0 280px;
     width: 100%;
   }
@@ -981,19 +928,55 @@ input#step-3:checked ~ .dots label[for="step-3"] {
     .wrapper {
       padding: 4em 0 8em;
     }
-
   }
 
-  
+  .icono-nav {
+    display: block;
+    cursor: pointer;
+    z-index: 1000;
+  }
 
+  .wrap-navegacion {
+    display: none;
+  }
+
+  #nav-toggle:checked ~ .wrap-navegacion {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+
+  .navegacion {
+    flex-direction: column;
+  }
+
+  .dropdown-content {
+    position: static;
+    display: none;
+    width: 100%;
+  }
+
+  .dropdown > span {
+    cursor: pointer;
+  }
+
+  .dropdown:focus-within .dropdown-content,
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
+
 @media (max-width: 768px) {
-
-    .img-tarjeta{
-      border-radius: var(--radius);
-    }
+  .img-tarjeta {
+    border-radius: var(--radius);
+  }
 }
-
 
 /* tarjests */
 .servicios {
